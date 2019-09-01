@@ -1,0 +1,23 @@
+{
+  "name": "xtal-timeline",
+  "version": "0.0.0",
+  "description": "Web component wrapper around CodyHouse timeline",
+  "main": "tbd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahrus/xtal-timeline.git"
+  },
+  "devDependencies": {
+    "xtal-test": "0.0.20"
+  },
+  "dependencies": {},
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahrus/xtal-timeline/issues"
+  },
+  "homepage": "https://github.com/bahrus/xtal-timeline#readme"
+}
