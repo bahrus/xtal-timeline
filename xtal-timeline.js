@@ -1,20 +1,22 @@
 import { define } from 'trans-render/define.js';
 import { createTemplate } from 'xtal-element/utils.js';
 const mainTemplate = createTemplate(/* html */ `
+<link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600&amp;display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <style>
 * {
     box-sizing: border-box;
   }
   
-  html {
+  #content {
     font-size: 14px;
-  }
-  
-  body {
     background: #f6f9fc;
     font-family: "Open Sans", sans-serif;
     color: #525f7f;
   }
+  
+
   
   h2 {
     margin: 5%;
@@ -264,7 +266,7 @@ const mainTemplate = createTemplate(/* html */ `
   }
   
 </style>
-<slot>
+<slot style="display:none">
 </slot>
 <div id="content"></div>
 `);
