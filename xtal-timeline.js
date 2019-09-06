@@ -5,10 +5,14 @@ const mainTemplate = createTemplate(/* html */ `
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600&amp;display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <style>
+  :host{
+    display:block;
+  }
 * {
     box-sizing: border-box;
   }
   
+
   #content {
     font-size: 14px;
     background: #f6f9fc;
