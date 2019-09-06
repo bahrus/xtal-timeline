@@ -4,16 +4,21 @@
   "description": "Web component wrapper around CodyHouse timeline",
   "main": "tbd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node node_modules/xtal-test/serve.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bahrus/xtal-timeline.git"
   },
   "devDependencies": {
-    "xtal-test": "0.0.20"
+    "xtal-test": "0.0.20",
+    "es-module-shims": "0.4.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "trans-render": "0.0.131",
+    "xtal-element": "0.0.82"
+  },
   "author": "",
   "license": "MIT",
   "bugs": {
