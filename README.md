@@ -1,17 +1,25 @@
-# Responsive Vertical Timeline
+<a href="https://nodei.co/npm/xtal-timeline/"><img src="https://nodei.co/npm/xtal-timeline.png"></a>
 
-An easy to customize, responsive timeline.
+<img src="https://badgen.net/bundlephobia/minzip/xtal-timeline">
 
-[Article on CodyHouse](https://codyhouse.co/gem/vertical-timeline)
+# Vertical Timeline
 
-[Demo](https://codyhouse.co/demo/vertical-timeline)
- 
-[License](https://codyhouse.co/license)
+Timeline based on this [codepen](https://codepen.io/hunzaboy/pen/qBWRBXw)
 
-## Dependencies
+[Demo](https://bahrus.github.io/xtal-timeline/cdn.html)
 
-This experiment is built upon the [CodyHouse Framework](https://github.com/CodyHouse/codyhouse-framework).
+This was almost trivial to implement as a web component.
 
-## Credits
+I was going to use [this](https://codyhouse.co/gem/vertical-timeline/) as the basis for the web component, but it was too much work to modernize it sufficiently to turn into a web component.  
 
-Icons: [Nucleo Library](https://nucleoapp.com/)
+**NB I**  The performance of this web component should improve dramatically with the finalization of constructible stylesheets and/or HTML Modules.
+
+**NB II**  In the demo you will see a flash of unformatted content.  This can be corrected by using styling to either hide the light children, or display it in a more elegant way.
+
+## Viewing Your Element Locally
+
+```
+$ npm install
+$ npm run serve
+```
+

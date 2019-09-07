@@ -2,7 +2,8 @@
   "name": "xtal-timeline",
   "version": "0.0.1",
   "description": "Web component wrapper around CodyHouse timeline",
-  "main": "tbd.js",
+  "main": "xtal-timeline.js",
+  "module": "xtal-timeline.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "node node_modules/xtal-test/serve.js"
