@@ -56,7 +56,7 @@ const mainTemplate = createTemplate(/* html */`
   .timeline__event:nth-child(2n + 1) .timeline__event__icon:before {
     content: "";
     width: 2px;
-    height: 100%;
+    height: 160px;
     background: #f6a4ec;
     position: absolute;
     top: 0%;
@@ -132,7 +132,7 @@ const mainTemplate = createTemplate(/* html */`
   .timeline__event__icon:before {
     content: "";
     width: 2px;
-    height: 100%;
+    height: 160px;
     background: #f6a4ec;
     position: absolute;
     top: 0%;
