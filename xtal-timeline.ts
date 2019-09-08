@@ -1,5 +1,6 @@
 import {define} from 'trans-render/define.js';
 import {createTemplate} from 'xtal-element/utils.js';
+import 'slot-bot/slot-bot.js';
 const mainTemplate = createTemplate(/* html */`
 <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600&amp;display=swap">
@@ -272,6 +273,7 @@ const mainTemplate = createTemplate(/* html */`
 </style>
 <slot style="display:none">
 </slot>
+<slot-bot></slot-bot>
 <div id="content"></div>
 `)
 export class XtalTimeline extends HTMLElement{
@@ -280,18 +282,6 @@ export class XtalTimeline extends HTMLElement{
     super();
     const shadowRoot = this.attachShadow({mode: "open"});
     shadowRoot.appendChild(mainTemplate.content.cloneNode(true));
-    this.shadowRoot!.querySelector('slot')!.addEventListener('slotchange', (event: Event) => {
-      const sE = event.target as HTMLSlotElement;
-      const c = this.shadowRoot!.querySelector('#content') as HTMLDivElement;
-      c.innerHTML = '';
-      sE.assignedNodes().forEach(el => {
-        console.log(el.nodeType, el);
-        if(el.nodeType === 1){
-          c.appendChild(el.cloneNode(true));
-        }
-        
-      })
-    });
   }
 } 
 

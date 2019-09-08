@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "trans-render": "0.0.131",
-    "xtal-element": "0.0.82"
+    "xtal-element": "0.0.82",
+    "slot-bot": "0.0.1"
   },
   "author": "",
   "license": "MIT",
