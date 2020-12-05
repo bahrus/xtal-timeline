@@ -1,5 +1,5 @@
 import { define } from 'trans-render/define.js';
-import { createTemplate } from 'xtal-element/utils.js';
+import { createTemplate } from 'trans-render/createTemplate.js';
 import 'slot-bot/slot-bot.js';
 const mainTemplate = createTemplate(/* html */ `
 <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">

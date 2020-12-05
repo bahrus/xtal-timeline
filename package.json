@@ -13,13 +13,13 @@
     "url": "git+https://github.com/bahrus/xtal-timeline.git"
   },
   "devDependencies": {
-    "xtal-test": "0.0.44",
-    "es-module-shims": "0.4.2"
+    "es-module-shims": "0.7.1",
+    "xtal-test": "0.0.48"
   },
   "dependencies": {
-    "trans-render": "0.0.143",
-    "xtal-element": "0.0.101",
-    "slot-bot": "0.0.5"
+    "slot-bot": "0.0.5",
+    "trans-render": "0.0.269",
+    "xtal-element": "0.0.315"
   },
   "author": "",
   "license": "MIT",
