@@ -84,7 +84,7 @@ const mainTemplate = createTemplate(/* html */`
     -webkit-animation: fillLeft 2s forwards 4s ease-in-out;
             animation: fillLeft 2s forwards 4s ease-in-out;
   }
-  .timeline__event__title {
+  .event__title {
     font-size: 1.2rem;
     line-height: 1.4;
     text-transform: uppercase;
@@ -178,7 +178,7 @@ const mainTemplate = createTemplate(/* html */`
   .timeline__event--type2 .event__icon:before, .timeline__event--type2 .event__icon:after {
     background: #87bbfe;
   }
-  .timeline__event--type2 .timeline__event__title {
+  .timeline__event--type2 .event__title {
     color: #555ac0;
   }
   .timeline__event--type3:after {
@@ -198,7 +198,7 @@ const mainTemplate = createTemplate(/* html */`
   .timeline__event--type3 .event__icon:before, .timeline__event--type3 .event__icon:after {
     background: #aff1b6;
   }
-  .timeline__event--type3 .timeline__event__title {
+  .timeline__event--type3 .event__title {
     color: #24b47e;
   }
   .timeline__event:last-child .event__icon:before {
