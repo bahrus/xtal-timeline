@@ -48,7 +48,7 @@ const mainTemplate = createTemplate(/* html */`
   .timeline__event:nth-child(2n + 1) {
     flex-direction: row-reverse;
   }
-  .timeline__event:nth-child(2n + 1) .timeline__event__date {
+  .timeline__event:nth-child(2n + 1) .event__date {
     border-radius: 0 6px 6px 0;
   }
   .timeline__event:nth-child(2n + 1) .timeline__event__content {
@@ -99,7 +99,7 @@ const mainTemplate = createTemplate(/* html */`
     width: calc(40vw - 84px);
     border-radius: 0 6px 6px 0;
   }
-  .timeline__event__date {
+  .event__date {
     color: #f6a4ec;
     font-size: 1.5rem;
     font-weight: 600;
@@ -164,7 +164,7 @@ const mainTemplate = createTemplate(/* html */`
   .timeline__event--type2:after {
     background: #555ac0;
   }
-  .timeline__event--type2 .timeline__event__date {
+  .timeline__event--type2 .event__date {
     color: #87bbfe;
     background: #555ac0;
   }
@@ -184,7 +184,7 @@ const mainTemplate = createTemplate(/* html */`
   .timeline__event--type3:after {
     background: #24b47e;
   }
-  .timeline__event--type3 .timeline__event__date {
+  .timeline__event--type3 .event__date {
     color: #aff1b6;
     background-color: #24b47e;
   }
@@ -222,7 +222,7 @@ const mainTemplate = createTemplate(/* html */`
     .event__icon:before, .event__icon:after {
       display: none;
     }
-    .timeline__event__date {
+    .event__date {
       border-radius: 0;
       padding: 20px;
     }
@@ -230,7 +230,7 @@ const mainTemplate = createTemplate(/* html */`
       flex-direction: column;
       align-self: center;
     }
-    .timeline__event:nth-child(2n + 1) .timeline__event__date {
+    .timeline__event:nth-child(2n + 1) .event__date {
       border-radius: 0;
       padding: 20px;
     }
