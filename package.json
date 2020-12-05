@@ -1,6 +1,6 @@
 {
   "name": "xtal-timeline",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Web component wrapper around a timeline codepen",
   "main": "xtal-timeline.js",
   "module": "xtal-timeline.js",
