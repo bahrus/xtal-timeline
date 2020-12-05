@@ -1,9 +1,13 @@
 import {define} from 'trans-render/define.js';
 import {createTemplate} from 'trans-render/createTemplate.js';
+import {preemptiveImport} from 'xtal-sip/preemptiveImport.js';
 import 'slot-bot/slot-bot.js';
+const lineIcons = '//cdn.lineicons.com/1.0.1/LineIcons.min.css';
+preemptiveImport([lineIcons,,'//cdn.lineicons.com/1.0.1/LineIcons.min.css',,{cssScope: 'global'}]);
+const googleFonts = '//fonts.googleapis.com/css?family=Open+Sans:100,300,400,600&amp;display=swap';
+preemptiveImport([googleFonts,,googleFonts,,{cssScope: 'global'}]);
 const mainTemplate = createTemplate(/* html */`
 <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600&amp;display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <style>
   :host{

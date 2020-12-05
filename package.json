@@ -19,7 +19,8 @@
   "dependencies": {
     "slot-bot": "0.0.5",
     "trans-render": "0.0.269",
-    "xtal-element": "0.0.315"
+    "xtal-element": "0.0.315",
+    "xtal-sip": "0.0.113"
   },
   "author": "",
   "license": "MIT",
