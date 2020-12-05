@@ -1,7 +1,7 @@
 {
   "name": "xtal-timeline",
   "version": "0.0.3",
-  "description": "Web component wrapper around CodyHouse timeline",
+  "description": "Web component wrapper around a timeline codepen",
   "main": "xtal-timeline.js",
   "module": "xtal-timeline.js",
   "scripts": {
