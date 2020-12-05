@@ -158,7 +158,7 @@ const mainTemplate = createTemplate(/* html */`
     -webkit-animation: fillLeftOdd 2s forwards 4s ease-in-out;
             animation: fillLeftOdd 2s forwards 4s ease-in-out;
   }
-  .timeline__event__description {
+  .event__description {
     flex-basis: 60%;
   }
   .timeline__event--type2:after {
