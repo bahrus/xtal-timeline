@@ -51,7 +51,7 @@ const mainTemplate = createTemplate(/* html */ `
   .timeline__event:nth-child(2n + 1) .event__date {
     border-radius: 0 6px 6px 0;
   }
-  .timeline__event:nth-child(2n + 1) .timeline__event__content {
+  .timeline__event:nth-child(2n + 1) .event__content {
     border-radius: 6px 0 0 6px;
   }
   .timeline__event:nth-child(2n + 1) .event__icon:before {
@@ -92,7 +92,7 @@ const mainTemplate = createTemplate(/* html */ `
     color: #9251ac;
     letter-spacing: 1.5px;
   }
-  .timeline__event__content {
+  .event__content {
     padding: 20px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
     background: #fff;
@@ -210,7 +210,7 @@ const mainTemplate = createTemplate(/* html */ `
       flex-direction: column;
       align-self: center;
     }
-    .timeline__event__content {
+    .event__content {
       width: 100%;
     }
     .event__icon {
