@@ -17,7 +17,7 @@
     "xtal-test": "0.0.48"
   },
   "dependencies": {
-    "slot-bot": "0.0.5",
+    "slot-bot": "0.0.7",
     "trans-render": "0.0.269",
     "xtal-element": "0.0.315",
     "xtal-sip": "0.0.117"
