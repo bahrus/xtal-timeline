@@ -6,7 +6,7 @@
 
 Timeline based on this [codepen](https://codepen.io/hunzaboy/pen/qBWRBXw)
 
-[Demo](https://bahrus.github.io/xtal-timeline/cdn.html)
+[Demo](https://jsfiddle.net/bahrus/uk7ey18t/)
 
 This was almost trivial to implement as a web component.
 
