@@ -1,12 +1,12 @@
-import { define } from 'trans-render/define.js';
-import { createTemplate } from 'trans-render/createTemplate.js';
+import { def } from 'trans-render/lib/def.js';
+import { html } from 'trans-render/lib/html.js';
 import { preemptiveImport } from 'xtal-sip/preemptiveImport.js';
 import 'slot-bot/slot-bot.js';
 const lineIcons = '//cdn.lineicons.com/1.0.1/LineIcons.min.css';
 preemptiveImport([lineIcons, , '//cdn.lineicons.com/1.0.1/LineIcons.min.css', , { cssScope: 'global' }]);
 const googleFonts = '//fonts.googleapis.com/css?family=Open+Sans:100,300,400,600&amp;display=swap';
 preemptiveImport([googleFonts, , googleFonts, , { cssScope: 'global' }]);
-const mainTemplate = createTemplate(/* html */ `
+const mainTemplate = html `
 <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <style>
@@ -279,7 +279,7 @@ const mainTemplate = createTemplate(/* html */ `
 </slot>
 <slot-bot></slot-bot>
 <div id="content"></div>
-`);
+`;
 export class XtalTimeline extends HTMLElement {
     static get is() { return 'xtal-timeline'; }
     constructor() {
@@ -288,4 +288,4 @@ export class XtalTimeline extends HTMLElement {
         shadowRoot.appendChild(mainTemplate.content.cloneNode(true));
     }
 }
-define(XtalTimeline);
+def(XtalTimeline);
